@@ -1,0 +1,25 @@
+.table {
+    .tableCell {
+        color: black;
+        font-weight: bold;
+    }
+    .cellWrapper {
+        display: flex;
+        align-items: center;
+        color: rgb(5, 40, 196);
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .status {
+        padding: 5px;
+        border-radius: 5px;
+        &.Approved {
+            color: rgb(255, 255, 255);
+            background-color: rgb(5, 40, 196);
+        }
+        &.Pending {
+            color: rgb(255, 255, 255);
+            background-color: rgb(5, 40, 196);
+        }
+    }
+}
